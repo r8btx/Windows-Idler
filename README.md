@@ -22,8 +22,6 @@ How to setup:
 
 <img src="./assets/01.png" width="600" alt="Creating a shortcut file"/>
 
----
-
 2. When you see the Create Shortcut window, paste the below code.  
 Replace **FOLDER CONTAINING THE SCRIPT** with the location of a folder containing the script.  
 
@@ -31,8 +29,6 @@ Replace **FOLDER CONTAINING THE SCRIPT** with the location of a folder containin
 
 <img src="./assets/02.png" width="600" alt="Defining what to execute"/>
   
----
-
 3. Once you create a shortcut file in the Desktop folder, you can go to shortcut file's properties and define options such as **Shortcut Key**. In this example, the option is set to `Crtl + Alt + L`. From now on, whenever desired, Idler can be activated via `Crtl + Alt + L` key combo.
 
 <img src="./assets/03.png" width="400" alt="Configuring shortcut options"/>
