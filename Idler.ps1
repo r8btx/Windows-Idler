@@ -71,7 +71,6 @@ try {
     [Utilities.Display]::PowerOff()
     Lock-Workstation
     $ste::SetThreadExecutionState($ES_CONTINUOUS -bor $ES_SYSTEM_REQUIRED)
-    Start-Sleep -Seconds 2
     do {
         Start-Sleep -Seconds 1
     } until (!(Get-Process -Name LogonUI -ea 0))
