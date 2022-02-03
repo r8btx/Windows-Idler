@@ -1,7 +1,7 @@
 # Windows-Idler
 
 To keep away low-threat individuals (e.g. kids) from messing around your computer, it is best to lock your computer.
-However, there are times when you want to leave some processes working in the background, thus you may want a way to lock your computer while preventing your computer from putting into sleep. This PowerShell script provides a way for you to let your computer idle and process whatever you want in the background.
+However, there are times when you want to leave some processes working in the background, thus you may want a way to lock your computer while preventing your computer from putting into sleep. This PowerShell script provides a way for you to let your computer stay idle and process whatever you want in the background.
 
 You can use Idler when you are:
 * running backups
@@ -13,7 +13,7 @@ You can use Idler when you are:
 
 ## Advanced Usage
 
-Normally, you need to right-click a Windows PowerShell Script(.ps1) and click "Run with PowerShell" to execute the script.  
+Normally, you need to right-click the Windows PowerShell Script(.ps1) and click "Run with PowerShell" to execute.  
 But, if you create a shortcut file(.lnk), you can double click or even use "Shortcut key" to execute the script.  
 
 How to setup:  
