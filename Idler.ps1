@@ -73,7 +73,7 @@ try {
     $ste::SetThreadExecutionState($ES_CONTINUOUS -bor $ES_SYSTEM_REQUIRED)
     do {
         Start-Sleep -Seconds 1
-    } until (!(Get-Process -Name LogonUI -ea 0))
+    } until (!(($tasklist | Where Name -EQ winlogon).Threads.WaitReason -contains 'LpcReply') -and ('LogonUI' -inotin $tasklist.Name))
 
 } finally {
 
